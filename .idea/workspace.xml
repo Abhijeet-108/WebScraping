@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe1b9e79-4aad-45c3-9547-14f8e0525b0b" name="Changes" comment="First commit and push">
-      <change afterPath="$PROJECT_DIR$/StudentProject/DataScraping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentProject/Graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentProject/scrap_data.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentProject/temp.txt" afterDir="false" />
+    <list default="true" id="fe1b9e79-4aad-45c3-9547-14f8e0525b0b" name="Changes" comment="prepare a data scraping tool to scrap temperature and store the data and prepare graph based on it">
+      <change afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.db-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentProject/temp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StudentProject/temp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +55,15 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.DataScraping.executor": "Run",
+    "Python.example.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Python/WebCam_Monitoring"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.DataScraping">
+  <component name="RunManager" selected="Python.main">
     <configuration name="DataScraping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
       <option name="ENV_FILES" value="" />
@@ -75,6 +78,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StudentProject/DataScraping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WebScraping" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.example" />
         <item itemvalue="Python.DataScraping" />
       </list>
     </recent_temporary>
@@ -135,12 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715659555436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="prepare a data scraping tool to scrap temperature and store the data and prepare graph based on it">
+      <option name="closed" value="true" />
+      <created>1715662740758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715662740758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit and push" />
+    <MESSAGE value="prepare a data scraping tool to scrap temperature and store the data and prepare graph based on it" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepare a data scraping tool to scrap temperature and store the data and prepare graph based on it" />
   </component>
 </project>
