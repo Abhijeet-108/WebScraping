@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe1b9e79-4aad-45c3-9547-14f8e0525b0b" name="Changes" comment="prepare a data scraping tool to scrap temperature and store the data and prepare graph based on it">
-      <change afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.db-journal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentProject/temp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StudentProject/temp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentProject/DataScraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentProject/DataScraping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentProject/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentProject/Graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
     "last_opened_file_path": "D:/Python/WebCam_Monitoring"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.DataScraping">
     <configuration name="DataScraping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WebScraping" />
       <option name="ENV_FILES" value="" />
@@ -132,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.example" />
         <item itemvalue="Python.DataScraping" />
+        <item itemvalue="Python.example" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715662740758</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="prepare a data scraping tool to scrap temperature and store the data and prepare graph based on it">
+      <option name="closed" value="true" />
+      <created>1715707361638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715707361638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
